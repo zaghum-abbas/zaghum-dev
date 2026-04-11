@@ -18,11 +18,20 @@ import ThemeSwitcher from '@/components/general/theme-switcher';
 import IconButton from '@/components/general/icon-button';
 import DownloadCV from '@/components/general/download-cv';
 import Typography from '@/components/general/typography';
+import ImageWrapper from '@/components/data-display/image-wrapper';
+import BlackLogo from '/public/images/logos/black-logo.png';
+import WhiteLogo from '/public/images/logos/white-logo.png';
 
 const Logo = () => (
-  <Typography variant="h3" className="font-bold">
-    {'<ZA />'}
-  </Typography>
+  <span className="inline-block h-[50px] w-[50px] shrink-0">
+    <ImageWrapper
+      src={BlackLogo}
+      srcForDarkMode={WhiteLogo}
+      alt="Logo"
+      width={50}
+      height={50}
+    />
+  </span>
 );
 
 const Header = () => {
