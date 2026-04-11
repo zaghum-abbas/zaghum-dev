@@ -20,15 +20,18 @@ import LogoCypressLight from '/public/images/logos/icon-cypress-light.svg';
 import LogoStorybook from '/public/images/logos/icon-storybook.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 
-import LogoUpwork from '/public/images/logos/logo-upwork.svg';
-import LogoGreenApex from '/public/images/logos/logo-greenapex.svg';
+import SiteNativeLogo from '/public/images/logos/siteNative-logo.webp';
+import SpeectoLogo from '/public/images/logos/speectoLogo.png';
 import LogoGreenApexLight from '/public/images/logos/logo-greenapex-light.svg';
-import LogoDotnpixel from '/public/images/logos/logo-dotnpixel.svg';
+import DGSolLogo from '/public/images/logos/dgSol.webp';
+import AdrightLogo from '/public/images/logos/adrightly.webp';
+import GamicaCloudeLogo from '/public/images/logos/gamicaCloud.jpeg';
 import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel-light.svg';
 
-import ProjectFiskil from '/public/images/project-fiskil.png';
-import ProjectWingie from '/public/images/project-wingie.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import ProjectBaseNest from '/public/images/basenest.png';
+import ProjectOneGreenFilter from '/public/images/onegreenfilter.png';
+import ProjectShopilam from '/public/images/shopilam.png';
+import ProjectIgnite from '/public/images/ignite.png';
 
 import AvatarKrisztian from '/public/images/avatar-krisztian.png';
 import AvatarEugen from '/public/images/avatar-eugen.png';
@@ -159,96 +162,123 @@ export const TECHNOLOGIES: TechDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
-    logo: LogoUpwork,
-    logoAlt: 'Upwork logo',
-    position: 'Independent Freelancer',
-    startDate: new Date(2021, 10),
+    logo: SiteNativeLogo,
+    logoAlt: 'SiteNative logo',
+    position: 'Full Stack Engineer / Team Lead',
+    startDate: new Date(2025, 10),
     currentlyWorkHere: true,
     summary: [
-      'Worked for various clients like Fiskil, Shosho, Crowe MacKay LLP.',
-      'Worked with a variety of technologies, including React, Next.js, Typescript, Express.js, PostgreSQL, Tailwindcss, Mui, Firebase, Storybook, Cypress, and others.',
+      'Currently working with SiteNative on building and shipping full-stack features using React and Node.js, contributing directly to a live production codebase that real users depend on every day. Beyond writing code, I actively participate in API architecture decisions and frontend performance improvements, ensuring the product scales cleanly as the user base grows. Collaborating closely with cross-functional product and design teams, bringing both technical depth and clear communication to every sprint making sure nothing gets lost between design intent and final implementation.',
     ],
   },
   {
-    logo: LogoGreenApex,
-    darkModeLogo: LogoGreenApexLight,
+    logo: SpeectoLogo,
+    darkModeLogo: SpeectoLogo,
     logoAlt: 'Greenapex logo',
-    position: 'Team Lead',
-    startDate: new Date(2017, 6),
-    endDate: new Date(2021, 9),
+    position: 'Software Engineer',
+    startDate: new Date(2024, 6),
+    endDate: new Date(2025, 9),
     summary: [
-      'Acted as team lead in different projects.',
-      'Brainstormed new ideas & gathered requirements for internal projects.',
-      'Designed architecture of different projects (frontend + backend).',
-      'Worked on enterprise-level projects for a variety of clients.',
-      'Handled sprint planning & task distribution.',
+      'At Speecto, a UK-based SaaS company based in London, I built production-grade MERN stack features that powered the core product. I designed and maintained REST APIs using Node.js, seamlessly integrating them with React frontends to deliver smooth, reliable user experiences. Working asynchronously with the London-based team, I consistently maintained high delivery standards meeting deadlines, communicating proactively, and ensuring code quality throughout every sprint.'
     ],
   },
-  {
-    logo: LogoDotnpixel,
-    darkModeLogo: LogoDotnpixelLight,
-    logoAlt: 'Dotnpixel logo',
-    position: 'Full Stack Developer',
-    startDate: new Date(2015, 11),
-    endDate: new Date(2017, 4),
-    summary: ['Worked as a full stack developer (React / Laravel).'],
-  },
+    {
+      logo: DGSolLogo,
+      darkModeLogo: DGSolLogo,
+      logoAlt: 'DGSol logo',
+      position: 'MERN Developer',
+      startDate: new Date(2023, 6),
+      endDate: new Date(2024, 5),
+      summary: [`At DGSOL, a digital marketing agency, I delivered full-stack features across multiple client projects spanning various industries. I built React frontends and Node.js APIs tailored to each platform's unique requirements, working closely with designers and project managers to ensure every product shipped with responsive, pixel-perfect interfaces that matched the original vision down to the last detail.`],
+    },
+    {
+      logo: AdrightLogo,
+      darkModeLogo: AdrightLogo,
+      logoAlt: 'Adrightly logo',
+      position: 'Junior Developer',
+      startDate: new Date(2021, 8),
+      endDate: new Date(2023, 6),
+      summary: ['As a junior developer, I actively engaged in learning and applying the latest web development practices, honing my skills in JavaScript, React, and Node.js. I also contributed to the continuous improvement of existing projects and participated in the development of new features and functionalities.',
+        'I served as a React Developer,In this role I got to grips with creating user-friendly interfaces using React.js, learning the art of crafting interactive web elements and responsive designs.'
+      ],
+    },
+    {
+      logo: GamicaCloudeLogo,
+      darkModeLogo: GamicaCloudeLogo,
+      logoAlt: 'Gamica Cloud logo',
+      position: 'Full Stack Developer',
+      startDate: new Date(2021, 2),
+      endDate: new Date(2021, 6),
+      summary: ['I worked as a dedicated Frontend Developer at Gamica Cloud from March 2021 to August 2021. In this role, I was responsible for crafting the user interface and ensuring a seamless user experience on our web applications. I collaborated closely with our design and backend teams to bring web designs to life, leveraging a wide range of programming languages, libraries, and frameworks to create visually appealing, responsive, and user-friendly web pages.'],
+    },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
   {
-    name: 'Wingie',
+    name: 'Onegreen filter',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
-    url: 'https://www.wingie.com',
-    previewImage: ProjectWingie,
+      'A clean and simple website for One Green Filter, built to showcase their mission of providing safe, healthy water for everyday life. The site focuses on clearly explaining their services and making it easy for people to understand how they can improve their water quality.',
+    url: 'https://www.onegreenfilter.com',
+    previewImage: ProjectOneGreenFilter,
     technologies: [
-      'React',
-      'Typescript',
-      'React Bootstrap',
-      'Firebase',
-      'Express.js',
-      'PostgreSQL',
-      'Styled Components',
-      'Redux',
-    ],
-  },
-  {
-    name: 'Fiskil',
-    description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
-    url: 'https://fiskil.com.au',
-    previewImage: ProjectFiskil,
-    technologies: [
-      'React',
       'Next.js',
       'Typescript',
+      'Sched cn',
       'Tailwindcss',
-      'Material UI',
-      'Redux Toolkit',
-      'React Query',
       'Express.js',
-      'PostgreSQL',
-      'Firebase',
-      'AWS Amplify',
-      'Cypress',
-      'Storybook',
+      'MongoDB',
+      'Node.js',
+      'Strapi',
     ],
   },
   {
-    name: 'Pepehousing',
+    name: 'Base Nest',
     description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
+      'A modern platform designed to simplify short-term housing for military personnel and government professionals. BaseNest makes it easier to find verified rentals, manage stays, and handle payments securely helping users focus less on logistics and more on their transition.',
+    url: 'https://basenest.com',
+    previewImage: ProjectBaseNest,
     technologies: [
-      'React',
       'Next.js',
       'Typescript',
       'Tailwindcss',
       'Redux Toolkit',
       'React Query',
-      'Storybook',
+      'Express.js',
+      'NeonDB',
+      'Node.js',
+      'Strapi',
+    ],
+  },
+  {
+    name: 'Shopilam',
+    description:
+      'A smart eCommerce platform designed to make selling easier for everyone, especially beginners. Shopilam brings everything inventory, orders, and fulfillment—into one place, and also allows users to resell products, making it simple to start and grow an online business without dealing with complex setup.',
+    url: 'https://shopilam.com',
+    previewImage: ProjectShopilam,
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'MongoDB',
+      'Python',
+    ],
+  },
+  {
+    name: 'Ignite',
+    description:
+      'A growth-focused platform designed to help online business owners build a clear and effective marketing system. Ignite guides users through creating their messaging, funnels, and content strategy while providing support and ready-to-use resources to make scaling their business feel more structured and less overwhelming.',
+    url: 'https://ignitebyembodied.com',
+    previewImage: ProjectIgnite,
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'PostgreSQL',
+      'Express.js',
+      'Node.js',
+      'Strapi',
     ],
   },
 ];
