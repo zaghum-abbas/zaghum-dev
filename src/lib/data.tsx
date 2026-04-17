@@ -206,7 +206,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
       logo: GamicaCloudeLogo,
       darkModeLogo: GamicaCloudeLogo,
       logoAlt: 'Gamica Cloud logo',
-      position: 'Full Stack Developer',
+      position: 'Frontend Developer',
       startDate: new Date(2021, 2),
       endDate: new Date(2021, 6),
       summary: ['I worked as a dedicated Frontend Developer at Gamica Cloud from March 2021 to August 2021. In this role, I was responsible for crafting the user interface and ensuring a seamless user experience on our web applications. I collaborated closely with our design and backend teams to bring web designs to life, leveraging a wide range of programming languages, libraries, and frameworks to create visually appealing, responsive, and user-friendly web pages.'],
@@ -214,41 +214,41 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
-  {
-    name: 'Onegreen filter',
-    description:
-      'A clean and simple website for One Green Filter, built to showcase their mission of providing safe, healthy water for everyday life. The site focuses on clearly explaining their services and making it easy for people to understand how they can improve their water quality.',
-    url: 'https://www.onegreenfilter.com',
-    previewImage: ProjectOneGreenFilter,
-    technologies: [
-      'Next.js',
-      'Typescript',
-      'Sched cn',
-      'Tailwindcss',
-      'Express.js',
-      'MongoDB',
-      'Node.js',
-      'Strapi',
-    ],
-  },
-  {
-    name: 'Base Nest',
-    description:
-      'A modern platform designed to simplify short-term housing for military personnel and government professionals. BaseNest makes it easier to find verified rentals, manage stays, and handle payments securely helping users focus less on logistics and more on their transition.',
-    url: 'https://basenest.com',
-    previewImage: ProjectBaseNest,
-    technologies: [
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Express.js',
-      'NeonDB',
-      'Node.js',
-      'Strapi',
-    ],
-  },
+  // {
+  //   name: 'Onegreen filter',
+  //   description:
+  //     'A clean and simple website for One Green Filter, built to showcase their mission of providing safe, healthy water for everyday life. The site focuses on clearly explaining their services and making it easy for people to understand how they can improve their water quality.',
+  //   url: 'https://www.onegreenfilter.com',
+  //   previewImage: ProjectOneGreenFilter,
+  //   technologies: [
+  //     'Next.js',
+  //     'Typescript',
+  //     'Sched cn',
+  //     'Tailwindcss',
+  //     'Express.js',
+  //     'MongoDB',
+  //     'Node.js',
+  //     'Strapi',
+  //   ],
+  // },
+  // {
+  //   name: 'Base Nest',
+  //   description:
+  //     'A modern platform designed to simplify short-term housing for military personnel and government professionals. BaseNest makes it easier to find verified rentals, manage stays, and handle payments securely helping users focus less on logistics and more on their transition.',
+  //   url: 'https://basenest.com',
+  //   previewImage: ProjectBaseNest,
+  //   technologies: [
+  //     'Next.js',
+  //     'Typescript',
+  //     'Tailwindcss',
+  //     'Redux Toolkit',
+  //     'React Query',
+  //     'Express.js',
+  //     'NeonDB',
+  //     'Node.js',
+  //     'Strapi',
+  //   ],
+  // },
   {
     name: 'Shopilam',
     description:
